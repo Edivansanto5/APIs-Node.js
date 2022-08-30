@@ -4,7 +4,7 @@ const someMath = 2 + 3;
 
 try{
     fileContent = fs.readFileSync('big-filetext','utf-8');
-    console.log('file has been red');
+    console.log('file has been read');
 }catch(err){
     console.log('!ERRO');
 }
