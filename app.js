@@ -10,3 +10,4 @@ try{
 }
 
 const text = ` the num is  ${someMath}`
+console.log(text)
