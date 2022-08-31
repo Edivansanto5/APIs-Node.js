@@ -1,5 +1,5 @@
 function generacao(age){
-    return 2016 - age
+    return 2022 - age
 }
 
 function generacaoDescricao(name,surName,age){
@@ -8,3 +8,5 @@ function generacaoDescricao(name,surName,age){
 
     return `${fullName} is ${age} old and born in ${bornDate}`
 }
+generacaoDescricao("Edivan","Santos",27)
+console.log(generacao)
