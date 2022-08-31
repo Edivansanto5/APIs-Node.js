@@ -1,12 +1,12 @@
 const fs = require ('fs');
-let fileContent;
 const someMath = 1 + 1;
 
-try{
-    fileContent = fs.readFileSync('big-felitext','utf-8');
-    console.log('arquivo foi lido')
-}catch(err){
-    console.log('ERRO !!!!')
-}
+fs.readFile('big-file.text','utf-8',function(err,content){
+    if(err){
+        return console.log(err)
+    }
+    console.log(content)
+});
+   
 const text = ` A soma dos numero é ${someMath}`;
 console.log(text)
